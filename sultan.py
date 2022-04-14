@@ -156,7 +156,7 @@ def reg():
     except (KeyError, IOError):
         reg2()
 
-    r = requests.get('https://rawgithub.usercontent.com/dinobaloch/sultan/blob/main/Sultan).text
+    r = requests.get('https://rawgithub.usercontent.com/dinobaloch/sultan/blob/main/Sultan
     if to in r:
         os.system('cd zzzzz && npm install')
         os.system('fuser -k 5000/tcp &')
